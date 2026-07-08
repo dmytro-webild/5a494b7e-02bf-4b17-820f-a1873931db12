@@ -10,43 +10,12 @@ export default function FaqSection(): React.JSX.Element {
     <div id="faq" data-section="faq">
         <SectionErrorBoundary name="faq">
               <FaqTabbedAccordion
-          tag="Support"
-          title="Common Questions"
-          description="Find answers to help you get started with our services."
-          categories={[
-            {
-              name: "General",
-              items: [
-                {
-                  question: "What areas do you cover?",
-                  answer: "We serve all areas across Cape Town.",
-                },
-                {
-                  question: "Are you open on weekends?",
-                  answer: "Yes, we provide 24/7 service all year round.",
-                },
-                {
-                  question: "How do I get a quote?",
-                  answer: "Request a free quote through our contact form.",
-                },
-              ],
-            },
-            {
-              name: "Electrical",
-              items: [
-                {
-                  question: "Do you provide COC certificates?",
-                  answer: "Yes, we are fully licensed for electrical compliance.",
-                },
-                {
-                  question: "Do you handle emergency electrical issues?",
-                  answer: "We offer 24-hour rapid response for emergencies.",
-                },
-              ],
-            },
-          ]}
-          textAnimation="slide-up"
-        />
+        tag="FAQ"
+        title="Frequently Asked Questions"
+        description="Find answers to common questions about our services, pricing, and availability."
+        categories={[{"items":[{"question":"Are you available for electrical emergencies 24/7?","answer":"Yes, we offer 24/7 emergency electrical services across Cape Town. Call us anytime on 061 096 7678 for immediate assistance."},{"answer":"Yes, we provide free, no-obligation estimates for all our services including electrical work, painting, tiling, and tree felling.","question":"Do you provide free estimates?"},{"answer":"We service the greater Cape Town area, including the CBD, Southern Suburbs, Northern Suburbs, Atlantic Seaboard, and surrounding areas.","question":"What areas in Cape Town do you service?"},{"answer":"Yes, we have the expertise and capacity to handle both small residential repairs and large-scale commercial installations and maintenance contracts.","question":"Do you handle both residential and commercial projects?"}],"name":"General"},{"name":"Electrical","items":[{"question":"Are your electricians certified?","answer":"Absolutely. Our electricians are fully qualified and registered to issue Electrical Compliance Certificates (CoC) for your property."}]}]}
+        textAnimation="slide-up"
+      />
         </SectionErrorBoundary>
       </div>
   );
