@@ -15,7 +15,8 @@ import FaqSection from './HomePage/sections/Faq';
 import ContactSection from './HomePage/sections/Contact';
 
 
-import ProcessSection from './HomePage/sections/Process';export default function HomePage(): React.JSX.Element {
+import ProcessSection from './HomePage/sections/Process';
+import GallerySection from './HomePage/sections/Gallery';export default function HomePage(): React.JSX.Element {
   return (
 <>
   <HeroSection />
@@ -34,6 +35,7 @@ import ProcessSection from './HomePage/sections/Process';export default function
 
   <ContactSection />
           <ProcessSection />
+      <GallerySection />
     </>
   );
 }
