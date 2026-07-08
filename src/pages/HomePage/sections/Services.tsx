@@ -10,67 +10,12 @@ export default function ServicesSection(): React.JSX.Element {
     <div id="services" data-section="services">
         <SectionErrorBoundary name="services">
               <FeaturesDetailedCards
-          tag="Our Expertise"
-          title="Multiservice Excellence"
-          description="Whether it's a minor repair or a major renovation, our team brings professionalism and precision to every project."
-          items={[
-            {
-              title: "Electrical Services",
-              description: "Professional installations, maintenance, and compliance certificates for your safety.",
-              tags: [
-                "Electrical",
-                "Compliance",
-              ],
-              imageSrc: "http://img.b2bpic.net/free-photo/male-electrician-overalls-focused-work-switchboard-with-fuses-using-tablet_169016-66542.jpg",
-            },
-            {
-              title: "Painting Services",
-              description: "Interior and exterior painting to breathe new life into your property.",
-              tags: [
-                "Painting",
-                "Finish",
-              ],
-              imageSrc: "http://img.b2bpic.net/free-photo/smiling-foreman-orange-work-clothes-yellow-hardhat-standing-ladder-with-measuring-tape-hand-happily-looking-camera-work_574295-1530.jpg",
-            },
-            {
-              title: "Tiling",
-              description: "Expert floor and wall tiling for modern residential and commercial spaces.",
-              tags: [
-                "Tiling",
-                "Flooring",
-              ],
-              imageSrc: "http://img.b2bpic.net/free-photo/tiler-working-renovation-apartment_23-2149278593.jpg",
-            },
-            {
-              title: "Tree Felling",
-              description: "Safe, professional tree removal and garden clearing for property maintenance.",
-              tags: [
-                "Outdoors",
-                "Safety",
-              ],
-              imageSrc: "http://img.b2bpic.net/free-photo/man-having-game-golf-outdoors-field_23-2150551612.jpg",
-            },
-            {
-              title: "Property Maintenance",
-              description: "General repairs and upkeep for residential and commercial properties.",
-              tags: [
-                "General",
-                "Repair",
-              ],
-              imageSrc: "http://img.b2bpic.net/free-photo/back-view-men-working-together_23-2148751979.jpg",
-            },
-            {
-              title: "24/7 Emergency Support",
-              description: "Around-the-clock availability for urgent electrical or home maintenance needs.",
-              tags: [
-                "Emergency",
-                "Support",
-              ],
-              imageSrc: "http://img.b2bpic.net/free-photo/front-view-male-worker-yellow-uniform-with-clocks-blue_179666-30267.jpg",
-            },
-          ]}
-          textAnimation="slide-up"
-        />
+        tag="Our Expertise"
+        title="Multiservice Excellence"
+        description="Whether it's a minor repair or a major renovation, our team brings professionalism and precision to every project."
+        items={[{"tags":["Electrical","Compliance"],"imageSrc":"https://images.unsplash.com/photo-1621905251189-08b45d6a269e?q=80&w=2069&auto=format&fit=crop","description":"Professional installations, maintenance, and compliance certificates for your safety.","title":"Electrical Services"},{"title":"Painting Services","description":"Interior and exterior painting to breathe new life into your property.","imageSrc":"http://img.b2bpic.net/free-photo/smiling-foreman-orange-work-clothes-yellow-hardhat-standing-ladder-with-measuring-tape-hand-happily-looking-camera-work_574295-1530.jpg","tags":["Painting","Finish"]},{"imageSrc":"http://img.b2bpic.net/free-photo/tiler-working-renovation-apartment_23-2149278593.jpg","tags":["Tiling","Flooring"],"title":"Tiling","description":"Expert floor and wall tiling for modern residential and commercial spaces."},{"title":"Tree Felling","description":"Safe, professional tree removal and garden clearing for property maintenance.","imageSrc":"http://img.b2bpic.net/free-photo/man-having-game-golf-outdoors-field_23-2150551612.jpg","tags":["Outdoors","Safety"]},{"description":"General repairs and upkeep for residential and commercial properties.","title":"Property Maintenance","tags":["General","Repair"],"imageSrc":"http://img.b2bpic.net/free-photo/back-view-men-working-together_23-2148751979.jpg"},{"title":"24/7 Emergency Support","description":"Around-the-clock availability for urgent electrical or home maintenance needs.","imageSrc":"http://img.b2bpic.net/free-photo/front-view-male-worker-yellow-uniform-with-clocks-blue_179666-30267.jpg","tags":["Emergency","Support"]}]}
+        textAnimation="slide-up"
+      />
         </SectionErrorBoundary>
       </div>
   );
