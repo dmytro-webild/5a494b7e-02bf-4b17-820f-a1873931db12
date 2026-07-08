@@ -1,5 +1,5 @@
-import FooterSimpleCard from '@/components/sections/footer/FooterSimpleCard';
-import NavbarCentered from '@/components/ui/NavbarCentered';
+import FooterSimpleMedia from '@/components/sections/footer/FooterSimpleMedia';
+import NavbarFloatingLogo from '@/components/ui/NavbarFloatingLogo';
 import SectionErrorBoundary from "@/components/ui/SectionErrorBoundary";
 import SiteBackgroundSlot from "@/components/ui/SiteBackgroundSlot";
 import { Outlet } from 'react-router-dom';
@@ -41,8 +41,9 @@ export default function Layout() {
     <StyleProvider buttonVariant="default" siteBackground="gridDots" heroBackground="gradientBars">
       <SiteBackgroundSlot />
       <SectionErrorBoundary name="navbar">
-        <NavbarCentered
+        <NavbarFloatingLogo
       logo="Team Work Projects"
+      logoImageSrc="https://storage.googleapis.com/webild/users/user_3G8pr39VQA8qyoH5BQldYgFWqm6/uploaded-1783497508992-jc7ko550.jpg"
       ctaButton={{
         text: "Call Now: 061 096 7678",
         href: "tel:0610967678",
@@ -53,8 +54,9 @@ export default function Layout() {
         <Outlet />
       </main>
       <SectionErrorBoundary name="footer">
-        <FooterSimpleCard
+        <FooterSimpleMedia
       brand="Team Work Projects"
+      imageSrc="https://storage.googleapis.com/webild/users/user_3G8pr39VQA8qyoH5BQldYgFWqm6/uploaded-1783497508992-jc7ko550.jpg"
       columns={[
         {
           title: "Services",
@@ -83,6 +85,10 @@ export default function Layout() {
             {
               label: "Call: 061 096 7678",
               href: "tel:0610967678",
+            },
+            {
+              label: "Email: teamworkprojectsonline@gmail.com",
+              href: "mailto:teamworkprojectsonline@gmail.com",
             },
             {
               label: "Cape Town, South Africa",
