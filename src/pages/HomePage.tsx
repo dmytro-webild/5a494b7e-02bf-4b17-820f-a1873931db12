@@ -27,19 +27,19 @@ export default function HomePage() {
       }}
       leftItems={[
         {
-          imageSrc: "https://storage.googleapis.com/webild/users/user_3G8pr39VQA8qyoH5BQldYgFWqm6/uploaded-1783497508992-jc7ko550.jpg",
+          imageSrc: "https://storage.googleapis.com/webild/users/user_3G8pr39VQA8qyoH5BQldYgFWqm6/uploaded-1783497508992-jc7ko550.jpg?_wi=1",
         },
         {
-          imageSrc: "https://storage.googleapis.com/webild/users/user_3G8pr39VQA8qyoH5BQldYgFWqm6/uploaded-1783497508993-7j91lxbl.jpg",
+          imageSrc: "https://storage.googleapis.com/webild/users/user_3G8pr39VQA8qyoH5BQldYgFWqm6/uploaded-1783497508993-7j91lxbl.jpg?_wi=1",
         },
         {
-          imageSrc: "https://storage.googleapis.com/webild/users/user_3G8pr39VQA8qyoH5BQldYgFWqm6/uploaded-1783497508994-0eccbbf2.jpg",
+          imageSrc: "https://storage.googleapis.com/webild/users/user_3G8pr39VQA8qyoH5BQldYgFWqm6/uploaded-1783497508994-0eccbbf2.jpg?_wi=1",
         },
         {
-          imageSrc: "https://storage.googleapis.com/webild/users/user_3G8pr39VQA8qyoH5BQldYgFWqm6/uploaded-1783497508994-0bmy1vkw.jpg",
+          imageSrc: "https://storage.googleapis.com/webild/users/user_3G8pr39VQA8qyoH5BQldYgFWqm6/uploaded-1783497508994-0bmy1vkw.jpg?_wi=1",
         },
         {
-          imageSrc: "https://storage.googleapis.com/webild/users/user_3G8pr39VQA8qyoH5BQldYgFWqm6/uploaded-1783497508995-mdlqp5t6.jpg",
+          imageSrc: "https://storage.googleapis.com/webild/users/user_3G8pr39VQA8qyoH5BQldYgFWqm6/uploaded-1783497508995-mdlqp5t6.jpg?_wi=1",
         },
         {
           imageSrc: "http://img.b2bpic.net/free-photo/african-american-steel-worker-analyzing-finished-products-while-working-factory_637285-4742.jpg",
@@ -50,19 +50,19 @@ export default function HomePage() {
           imageSrc: "http://img.b2bpic.net/free-photo/service-maintenance-worker-repairing_23-2149176718.jpg",
         },
         {
-          imageSrc: "https://storage.googleapis.com/webild/users/user_3G8pr39VQA8qyoH5BQldYgFWqm6/uploaded-1783497508995-mdlqp5t6.jpg",
+          imageSrc: "https://storage.googleapis.com/webild/users/user_3G8pr39VQA8qyoH5BQldYgFWqm6/uploaded-1783497508995-mdlqp5t6.jpg?_wi=2",
         },
         {
-          imageSrc: "https://storage.googleapis.com/webild/users/user_3G8pr39VQA8qyoH5BQldYgFWqm6/uploaded-1783497508994-0bmy1vkw.jpg",
+          imageSrc: "https://storage.googleapis.com/webild/users/user_3G8pr39VQA8qyoH5BQldYgFWqm6/uploaded-1783497508994-0bmy1vkw.jpg?_wi=2",
         },
         {
-          imageSrc: "https://storage.googleapis.com/webild/users/user_3G8pr39VQA8qyoH5BQldYgFWqm6/uploaded-1783497508994-0eccbbf2.jpg",
+          imageSrc: "https://storage.googleapis.com/webild/users/user_3G8pr39VQA8qyoH5BQldYgFWqm6/uploaded-1783497508994-0eccbbf2.jpg?_wi=2",
         },
         {
-          imageSrc: "https://storage.googleapis.com/webild/users/user_3G8pr39VQA8qyoH5BQldYgFWqm6/uploaded-1783497508993-7j91lxbl.jpg",
+          imageSrc: "https://storage.googleapis.com/webild/users/user_3G8pr39VQA8qyoH5BQldYgFWqm6/uploaded-1783497508993-7j91lxbl.jpg?_wi=2",
         },
         {
-          imageSrc: "https://storage.googleapis.com/webild/users/user_3G8pr39VQA8qyoH5BQldYgFWqm6/uploaded-1783497508992-jc7ko550.jpg",
+          imageSrc: "https://storage.googleapis.com/webild/users/user_3G8pr39VQA8qyoH5BQldYgFWqm6/uploaded-1783497508992-jc7ko550.jpg?_wi=2",
         },
       ]}
       textAnimation="slide-up"
